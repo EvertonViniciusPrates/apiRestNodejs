@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ace698fd-df02-4a0b-b465-74e11fa1c9ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>index.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -31,7 +31,6 @@
     <Compile Include="api-routes.js">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="app.js" />
     <Compile Include="contactController.js">
       <SubType>Code</SubType>
     </Compile>

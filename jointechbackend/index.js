@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 // Connect to Mongoose and set connection variable
 mongoose.connect('mongodb://127.0.0.1:27017/jointech', { useNewUrlParser: true });
 var db = mongoose.connection;
+console.log(db.collection("news"))
 // Setup server port
 var port = process.env.PORT || 8080;
 // Send message for default URL
@@ -26,5 +27,3 @@ app.use('/api', apiRoutes)
 app.listen(port, function () {
     console.log("Running RestHub on port " + port);
 });
-
-//app.get('/teste', (req, res) => res.send(db.collection.toString()));

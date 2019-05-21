@@ -3,7 +3,7 @@
 Newsletter = require('./newsletterModel');
 // Handle index actions
 exports.index = function (req, res) {
-    Newsletter.get(function (err, newsletters) {
+    Newsletter.get(function (err, newsletter) {
         if (err) {
             res.json({
                 status: "error",
@@ -12,8 +12,8 @@ exports.index = function (req, res) {
         }
         res.json({
             status: "success",
-            message: "Contacts retrieved successfully",
-            data: newsletters
+            message: "NewsLetters retrieved successfully",
+            data: newsletter
         });
     });
 };
@@ -36,7 +36,7 @@ exports.new = function (req, res) {
 };
 // Handle view newsletter info
 exports.view = function (req, res) {
-    Newsletter.findById(req.params.contact_id, function (err, newsletter) {
+    Newsletter.findById(req.params._id, function (err, newsletter) {
         if (err)
             res.send(err);
         res.json({
@@ -47,7 +47,7 @@ exports.view = function (req, res) {
 };
 // Handle update newsletter info
 exports.update = function (req, res) {
-    Newsletter.findById(req.params.contact_id, function (err, newsletter) {
+    Newsletter.findById(req.params._id, function (err, newsletter) {
         if (err)
             res.send(err);
         newsletter.name = req.body.name ? req.body.name : newsletter.name;
