@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jointechbackend", "jointechbackend\jointechbackend.njsproj", "{ACE698FD-DF02-4A0B-B465-74E11FA1C9EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE698FD-DF02-4A0B-B465-74E11FA1C9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE698FD-DF02-4A0B-B465-74E11FA1C9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE698FD-DF02-4A0B-B465-74E11FA1C9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE698FD-DF02-4A0B-B465-74E11FA1C9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4639B5DD-1E29-4650-B272-EC643BE629D2}
+	EndGlobalSection
+EndGlobal
