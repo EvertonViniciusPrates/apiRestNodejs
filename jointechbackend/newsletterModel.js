@@ -4,7 +4,7 @@ var newsletterSchema = new mongoose.Schema({
     cardTitle: String,
     img: String,
     description: String,
-    lastupdate: String
+    lastUpdate: String
 });
 var Newsletter = module.exports = mongoose.model('news', newsletterSchema);
 module.exports.get = function (callback, limit) {
