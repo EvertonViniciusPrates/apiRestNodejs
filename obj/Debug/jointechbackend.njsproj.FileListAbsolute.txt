@@ -1,0 +1,3 @@
+C:\Users\everton.prates\Documents\desktop2\tcc,\backend\jointechbackend\jointechbackend\obj\Debug\jointechbackend.njsprojAssemblyReference.cache
+C:\Users\everton.prates\Documents\desktop2\tcc,\backend\jointechbackend\jointechbackend\obj\Debug\jointechbackend.njsproj.CoreCompileInputs.cache
+C:\Users\everton.prates\Documents\desktop2\tcc,\backend\jointechbackend\jointechbackend\bin\Microsoft.NodejsTools.WebRole.dll
